@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Nexus - 全球AI工具导航站</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 动态背景 -->
+    <div class="bg-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar glass-effect">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🚀</span>
+                <span class="logo-text">AI Nexus</span>
+            </div>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索AI工具...">
+                <span class="search-icon">🔍</span>
+            </div>
+            <div class="nav-links">
+                <a href="#hot" class="nav-link active">🔥 热门</a>
+                <a href="#new" class="nav-link">✨ 最新</a>
+                <a href="#categories" class="nav-link">📂 分类</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主内容区 -->
+    <main class="container">
+        <!-- 英雄区域 -->
+        <section class="hero-section">
+            <h1 class="hero-title">
+                <span class="gradient-text">探索未来</span>
+                <br>
+                <span>AI工具宇宙</span>
+            </h1>
+            <p class="hero-subtitle">收录全球1000+顶级AI工具，一站式发现你的智能助手</p>
+            
+            <!-- 快捷分类标签 -->
+            <div class="quick-tags">
+                <button class="tag-btn active" data-category="all">全部</button>
+                <button class="tag-btn" data-category="chat">💬 聊天助手</button>
+                <button class="tag-btn" data-category="image">🎨 图像设计</button>
+                <button class="tag-btn" data-category="video">🎬 视频创作</button>
+                <button class="tag-btn" data-category="code">💻 编程开发</button>
+                <button class="tag-btn" data-category="writing">✍️ 写作助手</button>
+            </div>
+        </section>
+
+        <!-- 统计卡片 -->
+        <section class="stats-section">
+            <div class="stat-card glass-effect">
+                <div class="stat-number">1000+</div>
+                <div class="stat-label">AI工具</div>
+            </div>
+            <div class="stat-card glass-effect">
+                <div class="stat-number">16</div>
+                <div class="stat-label">分类场景</div>
+            </div>
+            <div class="stat-card glass-effect">
+                <div class="stat-number">50K+</div>
+                <div class="stat-label">日活用户</div>
+            </div>
+            <div class="stat-card glass-effect">
+                <div class="stat-number">24h</div>
+                <div class="stat-label">实时更新</div>
+            </div>
+        </section>
+
+        <!-- 工具网格 -->
+        <section class="tools-section" id="toolsGrid">
+            <!-- 工具卡片将通过JS动态生成 -->
+        </section>
+
+        <!-- 加载更多 -->
+        <div class="load-more">
+            <button class="load-more-btn glass-effect">加载更多工具</button>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer glass-effect">
+        <div class="container">
+            <p>&copy; 2026 AI Nexus. 探索AI的无限可能</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
