@@ -128,6 +128,17 @@ const aiTools = [
         popular: false
     },
     
+    {
+        name: "agent-qa",
+        category: "code",
+        categoryName: "编程开发",
+        icon: "🧪",
+        description: "自然语言网页与移动端测试，支持 CLI/MCP，结合 memidex 持久记忆与经验证的自我改进",
+        tags: ["应用测试", "MCP", "持久记忆"],
+        url: "https://vostride.com",
+        popular: false
+    },
+
     // 写作助手
     {
         name: "Notion AI",
